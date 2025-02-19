@@ -11,7 +11,7 @@ export function About() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center" >
 
-            <div className="relative">
+            <div className="relative" data-aos="fade-up-right" data-aos-delay="300">
                <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
                 <Image 
                 src={about1Image}
@@ -34,8 +34,8 @@ export function About() {
                 </div> 
                 </div>
 
-            <div className="space-y-6 mt-10">
-                <h2 className="text-4xl font-bold">Sobre</h2>
+            <div className="space-y-6 mt-10"data-aos="fade-up-left" data-aos-delay="500">
+                <h2 className="text-4xl font-bold">SOBRE</h2>
                 <p>
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English
                 </p>
